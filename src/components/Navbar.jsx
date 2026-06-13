@@ -28,7 +28,9 @@ export default function Navbar() {
           <a href="#localizacao" className="hover:text-gold-light transition-colors">Localização</a>
         </nav>
         <a
-          href="#contato"
+          href={client.whatsappHref}
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-gold text-navy font-sans font-medium text-sm px-6 py-2.5 rounded-full hover:bg-gold-light transition-colors"
         >
           Agendar consulta
