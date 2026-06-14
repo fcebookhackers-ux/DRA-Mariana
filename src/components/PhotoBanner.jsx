@@ -19,7 +19,9 @@ export default function PhotoBanner() {
           Consultas com tempo dedicado, escuta atenta e um plano de cuidado pensado para a sua família.
         </p>
         <a
-          href="#contato"
+          href={client.whatsappHref}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block mt-8 bg-gold text-navy font-sans font-medium px-7 py-3.5 rounded-full hover:bg-gold-light transition-colors"
         >
           Agendar agora →
